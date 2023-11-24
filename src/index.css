@@ -1,0 +1,30 @@
+:root {
+  --sunny: linear-gradient(#4376BD, #C5DCEC);
+  --night: linear-gradient(#07080C, #1B2A61);
+  --cloudy: linear-gradient(#7295A9, #A9BACA);
+  --rainy: linear-gradient(#132533, #757575);
+  --snowy: linear-gradient(#1B5278, #D1E2F8);
+}
+
+.ball {
+  margin: 50px 50%;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: orange;
+  box-shadow: 0 0 35px 5px yellow, 0 0 25px 10px yellow inset
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
